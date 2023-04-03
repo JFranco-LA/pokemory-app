@@ -1,0 +1,44 @@
+.redirect-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.button-to {
+  width: 12rem;
+  height: 4rem;
+  border-radius: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
+  z-index: 10;
+  border-color: transparent;
+}
+
+.atribute-button {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 12rem;
+  height: 4.15rem;
+  color: white;
+  text-transform: capitalize;
+  background-color: #00000080;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-color: transparent;
+}
+
+.button-to:hover {
+  background-color: #00000080;
+  color: white;
+  border-color: white;
+  transition: all 0.4s;
+}

@@ -1,7 +1,16 @@
+import { Routes, Route } from "react-router-dom";
+import PreviewPage from "./pages/PreviewPage";
+import HomePage from "./pages/HomePage";
 function App() {
   return (
     <>
-      <h1>POKEMORY APP</h1>
+      <Routes>
+        <Route path="/" element={<PreviewPage></PreviewPage>}/>
+        <Route path="/home" element={<HomePage></HomePage>}/>
+        {/* <Route path="/" element={<PreviewPage></PreviewPage>}/> */}
+        {/* <Route path="/" element={<PreviewPage></PreviewPage>}/> */}
+        {/* <Route path="/" element={<PreviewPage></PreviewPage>}/> */}
+      </Routes>
     </>
   );
 }
